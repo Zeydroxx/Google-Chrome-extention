@@ -1,0 +1,74 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    background-color: #333;
+    border-radius: 10px; /* Ajout de l'arrondi aux coins de l'extension */
+}
+
+h1 {
+    color: #fff;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 30px 10px 40px;
+    background-color: #4c63af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 10px 50%;
+    background-size: 20px;
+}
+
+/* Définissez une classe spécifique pour chaque bouton avec l'icône correspondante */
+#Amazon, #Discord, #Github, #Instagram, #JustDevThat, #MediaFire, #Netflix, #TikTok, #Twitch, #YT {
+    border-radius: 5px; /* Ajout de l'arrondi aux coins des boutons */
+}
+
+#Amazon {
+    background-image: url('icons/amazon-icon.png');
+}
+
+#Discord {
+    background-image: url('icons/discord-icon.png');
+}
+
+#Github {
+    background-image: url('icons/github-icon.png');
+}
+
+#Instagram {
+    background-image: url('icons/instagram-icon.png');
+}
+
+#JustDevThat {
+    background-image: url('icons/justdevthat-icon.png');
+}
+
+#MediaFire {
+    background-image: url('icons/mediafire-icon.png');
+}
+
+#Netflix {
+    background-image: url('icons/netflix-icon.png');
+}
+
+#TikTok {
+    background-image: url('icons/tiktok-icon.png');
+}
+
+#Twitch {
+    background-image: url('icons/twitch-icon.png');
+}
+
+#YT {
+    background-image: url('icons/youtube-icon.png');
+}
+
+button:hover {
+    background-color: #2d4cb1;
+}
